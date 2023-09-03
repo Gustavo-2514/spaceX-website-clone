@@ -1,0 +1,43 @@
+.container00{
+    &.container01{
+        background-image: url(../../imgs/home-imgs/01.jpg);
+    } &.container02{
+        background-image: url(../../imgs/home-imgs/03.jpg);
+    } &.container03{
+        background-image: url(../../imgs/home-imgs/02.gif);
+    } &.container04{
+        background-image: url(../../imgs/home-imgs/04.jpg);
+    }
+}
+
+.titlePadding{
+   padding-top: 200px;
+   color: white;
+}
+
+.containerArrowDown{
+    padding-top: 180px;
+}
+
+.bottom-title{
+    width: 550px;
+}
+
+.titleContainer4{
+    width: 650px;
+}
+
+#button{
+    padding: $padding-button ;
+}
+
+@media (max-width: 750px){
+    .titlePadding{
+        padding-top: 120px;
+    }
+
+    .bottom-title,.titleContainer4{
+        width: auto;
+        
+    }
+}

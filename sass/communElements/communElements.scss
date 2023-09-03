@@ -1,0 +1,94 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+.container00{
+    min-height: 100vh;
+    background-size:cover ;
+    background-position:center ;
+    background-repeat: no-repeat; 
+    width: 100%;
+}
+
+.header{
+    font-size: 12px;
+    font-weight: bold;
+    
+    #navItem{
+        &:hover{
+            color: $hover-links;
+        }
+    }
+}
+
+.logoHeader{
+    margin-left:-55px;
+    
+}
+
+.downloaldDesc{
+    background-color: black;
+    color: white;
+    height: 95vh;
+    padding-top: 260px;
+
+    .btn{
+        margin: 5px;
+    }
+}
+
+.emailSpaceX{
+    text-decoration: none;
+    color: $hover-links;
+
+    &:hover{
+        color: $copy-footer;
+    }
+}
+
+.footer{
+    padding: 24px ;
+   font-size: 12px;
+   font-weight: 500;
+   
+   .copy{
+    color: $copy-footer;
+   }
+
+   a{
+    text-decoration: none;
+    color:white;
+
+    &:hover{
+        color: $hover-links;
+    }
+   }
+
+}
+
+// MEDIA OF BUTTONS
+@media (max-width:521px){
+    .downloaldDesc{
+        .btn{
+            margin: 8px;
+        }
+    }
+}
+
+// MEDIA OF HEADER
+@media (max-width:338px){
+    .logoHeader{
+        width: 200px;
+       margin: auto;
+    }
+    .navbar-toggler{
+        width: 42px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+}
